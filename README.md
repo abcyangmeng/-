@@ -23,7 +23,40 @@ header: {  
       }
  ```
   **设置样式**  
-  **提取图片地址cover**
+  <h2>提取对话框信息并在页面显示</h2>  
+  **给输入框绑定事件内容改变时触发**  *
+ 
+  **内容改变提取改变内容**
+  ```
+   bindKeyInput: function (e) {
+    this.setData({
+      name: e.detail.value
+    })
+  },
+  bindKeyInputAge: function (e) {
+    this.setData({
+      age: e.detail.value
+    })
+  }
+  ```  
+   **给提交按钮绑定事件**  
+   **把内容给数组再在页面遍历wx:for="{{movies}}"**  
+   ```
+  addhero: function () {
+    var user = { title: this.data.name, rate: this.data.age }
+    var movies = this.data.movies;
+    movies.push(user);
+    this.setData({
+      movies: movies
+    })
+
+    this.setData({
+      name: '',
+      age: ''
+    })
+  },
+ 
+  ```
 
 
 
