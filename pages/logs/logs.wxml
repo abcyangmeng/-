@@ -1,0 +1,26 @@
+<!--logs.wxml-->
+<view>
+  <view class='content'>
+      <image src='../images/mao_1.png'></image>
+      <text>新的朋友</text>
+  </view> 
+    <view class='content'>
+      <image src='../images/圣诞树 (2).png'></image>
+      <text>群聊</text>
+  </view> 
+    <view class='content'>
+      <image src='../images/圣诞袜.png'></image>
+      <text>标签</text>
+  </view> 
+    <view class='content'>
+      <image src='../images/圣诞树.png'></image>
+      <text>公众号</text>
+  </view> 
+
+  
+  
+
+  
+
+
+</view>

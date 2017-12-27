@@ -1,0 +1,73 @@
+/* pages/home/home.wxss */
+.cover{
+  text-align: center;
+}
+.title{
+  font-size: 70rpx;
+}
+.list-item{
+  display: flex;
+  flex-direction: row;
+  background-color:#fff;
+  margin-top: 10rpx;
+  height: 200rpx;
+  text-align: center;
+  line-height: 80rpx;
+
+}
+.list-item .item-name{
+  height: 200rpx;
+  line-height: 200rpx;
+/* border: solid 1px black; */
+  flex: 1;
+  overflow: hidden;
+}
+
+.list-item .item-pic{
+     height: 150rpx; 
+   width: 100rpx;   
+  flex: 1;
+}
+.list-item .item-pic image{
+  height: 100%;
+  width: 100%;
+  
+}
+.list-item .item-age{
+  flex: 1;
+  height: 100%;
+  line-height: 200rpx;
+}
+page{
+  background-color: #eee;
+}
+.input-panel{
+ display: flex;
+background-color: white;
+}
+.input-panel .input-name{
+ flex: 1;
+
+}
+.btn{
+  height: 100%;
+  line-height: 200rpx;
+}
+.input-panel .input-age{
+ flex: 1;
+ border-left:solid 1px black;  
+}
+.input-panel input{
+ flex: 1;
+border-left:solid 1px black; 
+}
+.input-panel  input{
+ height: 100%;
+ font-size: 24px;
+/* border: solid 1px black; */
+}
+.input-panel .btn{
+ flex: 1;
+
+}
+

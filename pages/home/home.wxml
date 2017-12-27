@@ -1,0 +1,21 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<view class='cover'>
+<text class='text'>TFBOYS</text>
+<view class='input-panel'>
+<view class='input-name'> <input bindinput='bindKeyInput' type='text' value='{{name}}'></input></view>
+<view class='input-age'> <input bindinput='bindKeyInputAge' type='number' value='{{age}}'></input></view>
+<view class='btn' bindtap='addhero'><button>添加英雄</button></view>
+</view>
+
+<view class='list'>
+<!-- <navigator wx:for="{{tfboys}}" url='../detall/detall?name={{item.name}}&age={{item.age}}'> -->
+<view class='list-item' wx:for="{{movies}}" >
+<view class='item-pic'><image src='{{item.cover}}'></image></view>
+<view class='item-name'>{{item.title}}</view>
+<view class='item-age'>{{item.rate}}</view>
+<view ><button class='btn'  bindtap='deletehero'>删除</button></view>
+</view>
+<!-- </navigator> -->
+</view>
+</view>

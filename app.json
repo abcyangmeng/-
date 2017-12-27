@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/todo/todo",
+    "pages/home/home",
+    "pages/detall/detall",
+    "pages/weixin/weixin"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [
+      
+      {
+        "pagePath": "pages/weixin/weixin",
+        "text": "weixin",
+        "iconPath": "pages/images/圣诞老人 (1).png",
+        "selectedIconPath": "pages/images/圣诞老人.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "微信",
+        "iconPath": "pages/images/mao.png",
+        "selectedIconPath": "pages/images/mao_1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "通讯录",
+        "iconPath": "pages/images/圣诞树 (1).png",
+        "selectedIconPath": "pages/images/圣诞树 (2).png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我",
+        "iconPath": "pages/images/圣诞老人 (1).png",
+        "selectedIconPath": "pages/images/圣诞老人.png"
+      }
+    ]
+  }
+}

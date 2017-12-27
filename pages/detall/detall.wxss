@@ -1,0 +1,24 @@
+ .weui-cell__bd{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.weui-cells{
+   /* position:fixed;  */
+ width: 100%;
+  bottom: 1px;
+}
+.weui-cell{
+  width: 100%;
+} 
+.box{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.pic{
+  width: 40px;
+  height: 40px;
+}
