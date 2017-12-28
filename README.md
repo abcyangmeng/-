@@ -24,7 +24,7 @@ header: {  
  ```
   **设置样式**  
   <h2>提取对话框信息并在页面显示</h2>  
-  **给输入框绑定事件内容改变时触发**  *
+  **给输入框绑定事件内容改变时触发**  
  
   **内容改变提取改变内容**
   ```
@@ -40,7 +40,9 @@ header: {  
   }
   ```  
    **给提交按钮绑定事件**  
+   
    **把内容给数组再在页面遍历wx:for="{{movies}}"**  
+   
    ```
   addhero: function () {
     var user = { title: this.data.name, rate: this.data.age }
